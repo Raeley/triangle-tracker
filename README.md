@@ -19,3 +19,5 @@ Incase of any bugs; Fork a repo
 Javascript is used to make the website responsive to a user.The user is able to have the visual interaction with the program.
 ## contact me
 incase of any ideas email me at raelmoraa85@gmail.com or fork the repository and make changes to the code.
+## license
+The project is licensed under MIT license
