@@ -12,6 +12,8 @@ Incase of any bugs; Fork a repo
     Commit your changes (git commit -am 'Improve feature')
     Push to the branch (git push origin improve-feature)
     Create a Pull Request
+ #### demo
+ here is a live working demo
 ##### technologies used
 Javascript is used to make the website responsive to a user.The user is able to have the visual interaction with the program.
 ## incase of any ideas email me at raelmoraa85@gmail.com or fork the repository and make changes to the code.
