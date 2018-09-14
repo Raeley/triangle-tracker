@@ -14,7 +14,7 @@ Incase of any bugs; Fork a repo
     Push to the branch (git push origin improve-feature)
     Create a Pull Request
  #### demo
- here is a live working demo
+ here is a link to live working demo  https://raeley.github.io/triangle-tracker/
 ##### technologies used
 Javascript is used to make the website responsive to a user.The user is able to have the visual interaction with the program.
 ## contact me
