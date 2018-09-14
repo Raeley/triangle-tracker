@@ -1,7 +1,8 @@
 # triangle-tracker
 The project finds out the nature of a triangle.It allows users to enter three values and determine the nature of the triangle.
 ## project by Rael Gesaka
-### The project runs on a browser,It is a calculator that is configured to take in three values and by using the javascript if and else if statement
+### working of project
+The project runs on a browser,It is a calculator that is configured to take in three values and by using the javascript if and else if statement
 it can find out if the triangle is equilateral,scalene,or isosceles.
 It does not integrate any other applications.
 ## bugs
