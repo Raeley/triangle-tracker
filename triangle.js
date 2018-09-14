@@ -1,9 +1,13 @@
 function triangle_tracker(){
 
 var sides = []
-var first = sides.push(parseInt(prompt("enter first side")));
-var second = sides.push(parseInt(prompt("enter second side")));
-var third = sides.push(parseInt(prompt("enter third side")));
+sides.push(parseInt(prompt("enter first side")));
+sides.push(parseInt(prompt("enter second side")));
+sides.push(parseInt(prompt("enter third side")));
+  
+  var first=sides[0]
+  var second=sides[1]
+  var third=sides[2]
 
 /* console.log(sides); */
 if (first===second  &&  second===third){
