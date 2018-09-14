@@ -1,5 +1,6 @@
 # triangle-tracker
 The project finds out the nature of a triangle.It allows users to enter three values and determine the nature of the triangle.
+It will be an equilateral triangle if all sides are equal,an isosceles triangle if any two sides are equal and a scalene trianlge if neither side is equal to the other.
 ## project by Rael Gesaka
 ### working of project
 The project runs on a browser,It is a calculator that is configured to take in three values and by using the javascript if and else if statement
