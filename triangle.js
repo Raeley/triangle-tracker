@@ -1,27 +1,27 @@
 function triangle_tracker(){
 
 var sides = []
-sides.push(parseInt(prompt("enter first side")));
-sides.push(parseInt(prompt("enter second side")));
-sides.push(parseInt(prompt("enter third side")));
-  
-  var first=sides[0]
-  var second=sides[1]
-  var third=sides[2]
+sides.push(document.getElementById('first').value);
+sides.push(document.getElementById('second').value);
+sides.push(document.getElementById('third').value);
+
+var first=sides[0]
+var second=sides[1]
+var third=sides[2]
 
 /* console.log(sides); */
 if (first===second  &&  second===third){
-alert("equilateral")
+output.innerHTML=("equilateral triangle")
 }
 
 else if (first===second  &&  first!==third || first===third  &&  first!==second || second===third  &&  second!==first){
-alert("isosceles")
+output.innerHTML=("isosceles triangle")
 }
 
 else if(first!==second && second!==third && first!==third){
-alert("scalene")
+output.innerHTML=("scalene triangle")
 }
-else {
-alert("NOT a triangle")
+else if(first>=second+third||second>=first+third||third>=first+third){
+output.innerHTML=("NOT a triangle")
 }
 }
