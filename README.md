@@ -14,6 +14,12 @@ Incase of any bugs; Fork a repo
     Commit your changes (git commit -am 'Improve feature')
     Push to the branch (git push origin improve-feature)
     Create a Pull Request
+ #### BDD
+ possible occurence             |input test values |expected results
+ ------------------------------ |-----------------------------
+ input of three equal values    |7,7,7             |equilateral triangle
+ input of two equal values      |7,8,7             |isosceles triangle
+ input of three different values|3,4,5             |scalene triangle
  #### demo
  Here is a link to live working demo  https://raeley.github.io/triangle-tracker/
 ##### technologies used
