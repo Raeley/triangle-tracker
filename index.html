@@ -4,17 +4,21 @@
   <title> triangle tracker </title>
   <link rel="stylesheet" href="triangle.css" type="text/css">
   <script src="triangle.js">
-
   </script>
-  <body style="background-image: url('one.jpg')">
-
 </head>
-<body onload="javascript">
-  <h1>Triangle tracker</h1>
+  <body>
+    <div class="b">
+        <marquee width=200 height=50 direction= "scroll">Let's   have  fun  with  triangles!</marquee>
+    </div>
+    
+<h1> Triangle Type Finder<h1/>
 
+<input type="number" id="first"></input>
+<input type="number" id="second"></input>
+<input type="number" id="third"></input><br>
 
-    <input type="button" value="find out nature of triangle" onclick="triangle_tracker();">
-
-
+<button type="submit" id="check" onclick="triangle_tracker();">Click to check</button>
+<br>
+<p id="output"></p>
 </body>
 </html>
